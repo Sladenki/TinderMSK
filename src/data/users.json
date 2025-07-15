@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "who": "123",
+    "lookingFor": "456",
+    "telegram": "https://t.me/SlishkomSladki"
+  },
+  {
+    "id": 2,
+    "who": "Юля, дизайнер, люблю танцы,",
+    "lookingFor": "Хочу найти программиста",
+    "telegram": "https://t.me/yulchkk_phonk"
+  },
+  {
+    "id": 3,
+    "who": "Владимир программист люблю вкусно покушать",
+    "lookingFor": "Творческих людей",
+    "telegram": "https://t.me/golem4ikus"
+  }
+]
