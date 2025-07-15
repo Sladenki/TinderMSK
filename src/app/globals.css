@@ -22,24 +22,31 @@ body {
   text-align: center;
   position: relative;
   padding: 0 20px;
+  background: linear-gradient(135deg, #232946 0%, #3b2667 100%);
+  /* Более тёмный фон для контраста */
 }
 
 .hero-title {
-  font-size: 4.5rem;
+  font-size: 6rem;
   font-weight: 900;
-  color: white;
-  margin-bottom: 24px;
-  text-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  letter-spacing: -2px;
+  background: linear-gradient(90deg, #ff6a00 0%, #ee0979 30%, #7f53ac 60%, #43cea2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 32px;
+  text-shadow: 0 0 16px #fff, 0 6px 24px rgba(118,75,162,0.15);
+  letter-spacing: -3px;
   animation: fadeInUp 1s ease-out;
 }
 
 .hero-subtitle {
-  font-size: 1.4rem;
-  color: rgba(255,255,255,0.95);
-  max-width: 600px;
+  font-size: 2rem;
+  color: rgba(255,255,255,0.97);
+  max-width: 700px;
   line-height: 1.6;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
+  text-shadow: 0 2px 8px rgba(118,75,162,0.10);
   animation: fadeInUp 1s ease-out 0.3s both;
 }
 
@@ -216,12 +223,12 @@ body {
 /* Responsive */
 @media (max-width: 768px) {
   .hero-title {
-    font-size: 3rem;
+    font-size: 3.2rem;
     letter-spacing: -1px;
   }
   
   .hero-subtitle {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 40px;
   }
   
